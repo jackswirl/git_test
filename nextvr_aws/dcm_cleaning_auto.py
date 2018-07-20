@@ -40,11 +40,10 @@ for i in email_list:
             data = part.get_payload(decode=True)
             sio.write(data)
             sio.seek(0)
-            dcm = dcm.append(pd.read_csv(sio, header = 8))
+            dcm = dcm.append(pd.read_csv(sio, header = 8, skip_footer=1))
             sio.close()
 
 print "Pulled DCM Data For", dcm['Date'].unique()
-dcm = dcm[-1:]
 dcm['Date'] = pd.to_datetime(dcm['Date'])
 dcm['Date'] = dcm['Date'].dt.date
 
