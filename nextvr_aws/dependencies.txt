@@ -3,7 +3,5 @@ requests
 ast 
 sqlalchemy
 mysql
-imaplib
-email
 html2text
 sys
