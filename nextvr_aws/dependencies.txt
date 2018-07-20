@@ -2,6 +2,6 @@ pandas
 requests 
 ast 
 sqlalchemy
-mysql
+MySQL-python
 html2text
 
