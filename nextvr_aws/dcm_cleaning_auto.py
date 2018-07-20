@@ -44,6 +44,7 @@ for i in email_list:
             sio.close()
 
 print "Pulled DCM Data For", dcm['Date'].unique()
+dcm = dcm[-1:]
 dcm['Date'] = pd.to_datetime(dcm['Date'])
 dcm['Date'] = dcm['Date'].dt.date
 
