@@ -1,2 +1,5 @@
-sudo pip install --upgrade pip
-sudo pip install pandas requests ast mysqlclient sqlalchemy
+pandas 
+requests 
+ast 
+mysqlclient 
+sqlalchemy
