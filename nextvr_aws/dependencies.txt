@@ -1,7 +1,10 @@
-—upgrade pip
 pandas 
 requests 
 ast 
 sqlalchemy
 mysqlclient 
-
+imaplib
+email
+html2text
+sys
+import warnings
