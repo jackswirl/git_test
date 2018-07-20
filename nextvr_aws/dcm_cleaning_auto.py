@@ -40,7 +40,7 @@ for i in email_list:
             data = part.get_payload(decode=True)
             sio.write(data)
             sio.seek(0)
-            dcm = dcm.append(pd.read_csv(sio, header = 8, skip_footer=1))
+            dcm = dcm.append(pd.read_csv(sio, header = 8, footer=1))
             sio.close()
 
 print "Pulled DCM Data For", dcm['Date'].unique()
