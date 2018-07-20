@@ -1,5 +1,7 @@
+—upgrade pip
 pandas 
 requests 
 ast 
-mysqlclient 
 sqlalchemy
+mysqlclient 
+
