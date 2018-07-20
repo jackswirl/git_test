@@ -7,4 +7,3 @@ imaplib
 email
 html2text
 sys
-import warnings
