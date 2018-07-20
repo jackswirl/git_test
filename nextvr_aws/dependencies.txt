@@ -2,7 +2,7 @@ pandas
 requests 
 ast 
 sqlalchemy
-mysqlclient 
+mysql
 imaplib
 email
 html2text
